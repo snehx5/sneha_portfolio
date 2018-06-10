@@ -1,0 +1,116 @@
+
+
+md-toolbar{
+  background-color:white;
+  height:75px;
+  position:absolute;
+
+
+}
+
+#text{
+  color:white;
+  z-index:3;
+  position:absolute;
+  font-family: 'Quicksand', sans-serif;
+}
+
+*{
+  /*font-family: 'Quicksand', sans-serif;*/
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+ul li{
+  list-stye-type:none;
+  display:inline-block;
+  margin-left:8%;
+  background-color:#1E63EF;
+  height:47px;
+  width:100px;
+  padding:10px;
+  text-align:center;
+  color:white;
+}
+
+ul{
+  width:600px;
+  margin-left:15%;
+}
+
+md-card-header{
+  position:absolute;
+  z-index:0;
+}
+
+nav{
+  position:absolute;
+  margin-left:25%;
+  margin-top:15px;
+}
+
+#container div{
+
+
+}
+
+.projects div{
+ /* border:solid red 3px;*/
+  height:800px;
+}
+
+#mirror{
+  background-color:#E5B15B;
+}
+
+#panam{
+  background-color:#1660F5;
+}
+
+#spotify{
+  background-color:black;
+}
+
+#heem{
+  background-color:black;
+}
+
+#content-heading{
+  height:100px;
+  background-color:grey;
+}
+
+#mobile{
+  height:1300px;
+}
+
+.project-heading{
+  color:black;
+  font-weight:bold;
+  position:absolute;
+  margin-left:250px;
+  margin-top:270px;
+}
+
+.project-description{
+  color:black;
+  margin-top:330px;
+  width:400px;
+  margin-left:75px;
+  position:absolute;
+}
+
+.project-image{
+  margin-left:75px;
+  margin-top:400px;
+  position:absolute;
+  height:350px;
+  width:450px;
+}
+
+@media screen and (max-width:600px){
+  /*.projects div{
+    height:400px;
+  }*/
+}
+
+
