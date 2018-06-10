@@ -13,11 +13,15 @@ md-toolbar{
   z-index:3;
   position:absolute;
   font-family: 'Quicksand', sans-serif;
+  text-align:center;
+  font-size:45px;
+  margin-left:6%;
+  margin-top:15%;
 }
 
 *{
   /*font-family: 'Quicksand', sans-serif;*/
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 ul li{
@@ -107,10 +111,82 @@ nav{
   width:450px;
 }
 
+#span-one{
+  font-size:50px;
+}
+
+#span-two{
+margin-top:-50px;font-size:50px;
+}
+
+#span-three{
+  font-weight:none;
+  font-size:35px;
+}
+
+#about{
+  /*margin-left:5%;*/
+  background-color:#1E63EF;
+  height:850px;
+  width:100%;
+  color:white;
+}
+
+.align{
+  display:inline-block;
+
+}
+
+#about-heading{
+  font-size:50px;
+}
+
+#about-text{
+  line-height:30px;
+ /* float:right;*/
+  font-size:20px;
+  width:100%;
+
+}
+
+#image-holder{
+ /* padding:10px;*/
+  width:45%;
+  float:left;
+/*  margin-left:25%;*/
+}
+
+#image-holder img{
+
+}
+
+footer{
+  width:100%;
+  height:300px;
+  background-color:black;
+}
+
 @media screen and (max-width:600px){
   /*.projects div{
     height:400px;
   }*/
+
+  #text{
+    font-size:14px;
+    margin-left:0%;
+  }
+
+  #span-one{
+    font-size:18px;
+  }
+
+#span-two{
+  font-size:18px;
+}
+
+#span-three{
+  font-size:18px;
+}
 }
 
 
