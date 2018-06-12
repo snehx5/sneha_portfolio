@@ -74,7 +74,7 @@ nav{
 }
 
 nav li:hover{
-  background-color:dimgrey;
+  background-color:#393939;
 }
 
 
@@ -243,7 +243,7 @@ font-size:50px;
 footer{
   width:100%;
   height:200px;
-  background-color:black;
+  background-color:#393939;
 }
 
 footer p{
