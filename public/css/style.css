@@ -22,6 +22,29 @@ md-toolbar{
   font-family: 'Quicksand', sans-serif;
 }
 
+#social-media li{
+  background-color:white;
+  /*width:50px;
+  margin-left:4%;
+  height:50px;
+  border-radius:100px;
+  background-color:none;*/
+}
+#social-media img{
+  margin-top:-10px;
+}
+
+#social-media li{
+  margin-left:0%;
+
+}
+
+#social-media{
+  width:100px;
+  margin-top:-45px;
+  margin-left:80%;
+}
+
 ul li{
   list-stye-type:none;
   display:inline-block;
@@ -49,6 +72,12 @@ nav{
   margin-left:25%;
   margin-top:15px;
 }
+
+nav li:hover{
+  background-color:dimgrey;
+}
+
+
 
 #container div{
 
@@ -217,6 +246,15 @@ footer{
   background-color:#7269EF;
 }
 
+footer p{
+  text-align:center;
+  margin-left:45%;
+  margin-top:100px;
+  color:white;
+  position:absolute;
+  font-size:14px;
+}
+
 .padding{
   padding:15px;
 }
@@ -289,6 +327,13 @@ height:866px;
   /*.projects div{
     height:400px;
   }*/
+#social-media{
+  display:none;
+}
+
+footer p{
+  margin-left:35%;
+}
 
 nav ul{
   display:none;
