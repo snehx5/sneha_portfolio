@@ -1,5 +1,3 @@
-
-
 md-toolbar{
   background-color:white;
   height:75px;
@@ -129,12 +127,28 @@ nav{
 }
 
 #span-two{
-margin-top:-50px;font-size:50px;
+margin-top:-50px;
+font-size:50px;
 }
 
 #span-three{
   font-weight:none;
   font-size:35px;
+}
+
+#mywork{
+  margin-left:43%;
+  margin-top:35%;
+}
+
+#mywork-heading{
+  font-weight:bold;
+  font-size:30px;
+  margin-left:-2%;
+  margin-top:-2%;
+  z-index:2;
+  position:absolute;
+  color:white;
 }
 
 #about{
@@ -162,6 +176,30 @@ margin-top:-50px;font-size:50px;
 
 }
 
+#heem-iframe{
+  position:absolute;
+  margin-left:50%;
+  width:476px;
+  height:1000px;
+}
+
+#heem-heading{
+  color:white;
+  font-weight:bold;
+  position:absolute;
+  margin-left:100px;
+  margin-top:170px;
+}
+
+#heem-description{
+  font-size:20px;
+  color:white;
+  margin-top:230px;
+  width:400px;
+  margin-left:100px;
+  position:absolute;
+}
+
 #image-holder{
  /* padding:10px;*/
   width:45%;
@@ -175,12 +213,76 @@ margin-top:-50px;font-size:50px;
 
 footer{
   width:100%;
-  height:300px;
-  background-color:black;
+  height:200px;
+  background-color:#7269EF;
 }
 
 .padding{
   padding:15px;
+}
+
+#spotify-heading{
+color:white;
+font-weight:bold;
+position:absolute;
+margin-left:700px;
+margin-top:270px;
+}
+
+#spotify-description{
+font-size:20px;
+color:white;
+margin-top:330px;
+width:400px;
+margin-left:700px;
+position:absolute;
+}
+
+#spotify-iframe{
+margin-left:10%;
+margin-top:50px;
+padding:10px;
+width:428px;
+height:866px;
+}
+
+#heem{
+  height:1200px;
+}
+
+
+@media screen and (max-width:1000px){
+  /*.projects div{
+    height:400px;
+  }*/
+
+  #text{
+    font-size:18px;
+    margin-left:15%;
+
+  }
+
+  #heem{
+    height:1600px;
+  }
+
+  #mywork-heading{
+
+    margin-left:-50px;
+  }
+
+
+  #span-one{
+    font-size:20px;
+  }
+
+#span-two{
+  font-size:20px;
+}
+
+#span-three{
+  font-size:20px;
+}
 }
 
 @media screen and (max-width:600px){
@@ -188,9 +290,97 @@ footer{
     height:400px;
   }*/
 
+nav ul{
+  display:none;
+}
+
+#heem-iframe{
+  position:absolute;
+  margin-left:0%;
+  margin-top:200px;
+  width:476px;
+  height:1000px;
+}
+
+#heem-heading{
+  color:white;
+  font-weight:bold;
+  position:absolute;
+  margin-left:10px;
+  margin-top:1250px;
+}
+
+#heem-description{
+  font-size:20px;
+  color:white;
+  margin-top:1300px;
+  width:400px;
+  margin-left:10px;
+  position:absolute;
+}
+
+#spotify-heading{
+color:white;
+font-weight:bold;
+position:absolute;
+margin-left:30px;
+margin-top:950px;
+}
+
+#spotify-description{
+font-size:20px;
+color:white;
+margin-top:1010px;
+width:400px;
+margin-left:30px;
+position:absolute;
+}
+
+#spotify-iframe{
+margin-left:0%;
+margin-top:50px;
+padding:10px;
+width:428px;
+height:866px;
+}
+
+.projects div{
+    height:600px;
+}
+
+#panam{
+    height:600px;
+}
+
+.project-heading{
+    margin-left:50px;
+    margin-top:170px;
+  }
+
+  .project-description{
+    margin-top:230px;
+    width:275px;
+    margin-left:50px;
+  }
+
+  .project-image{
+    margin-top:300px;
+    margin-left:70px;
+    width:250px;
+    height:175px;
+  }
+
+
+
   #text{
     font-size:14px;
     margin-left:0%;
+  }
+
+  #mywork-heading{
+    font-size:20px;
+    margin-left:-50px;
+    display:block;
   }
 
   #span-one{
@@ -205,5 +395,3 @@ footer{
   font-size:18px;
 }
 }
-
-
