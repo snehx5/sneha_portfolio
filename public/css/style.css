@@ -57,18 +57,18 @@ md-toolbar{
 ul li{
   list-stye-type:none;
   display:inline-block;
-  margin-left:8%;
+  margin-left:6%;
   background-color:#1E63EF;
   height:47px;
-  width:100px;
+  width:120px;
   padding:10px;
   text-align:center;
   color:white;
 }
 
 ul{
-  width:600px;
-  margin-left:15%;
+  width:800px;
+  margin-left:-4%;
 }
 
 md-card-header{
